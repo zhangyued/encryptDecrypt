@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.security.*;
 import java.security.spec.InvalidKeySpecException;
 
+/**
+ * 数字签名
+ */
 public class SignatureDemo {
     public static void main(String[] args) throws InvalidKeySpecException, NoSuchAlgorithmException, Base64DecodingException, IOException, SignatureException, InvalidKeyException {
         String inputStr = "123";
